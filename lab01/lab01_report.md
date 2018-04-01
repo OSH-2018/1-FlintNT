@@ -121,6 +121,11 @@
     start_kernel () at init/main.c:500
     500	{
     ```
+    按c继续执行内核程序，内核启动成功后停止
+    输入help可以查询指令
+
+    ![](os_success.png)
+    ![](os_success2.png)
 ### gdb调试
 #### 关键事件一————start_kernel()
 - 输入list查看start_kernel附近的代码：
